@@ -1,0 +1,20 @@
+{
+  "name": "proxy-websocket-client",
+  "version": "1.0.0",
+  "description": "A WebSocket client with proxy support, using Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "ws": "^8.11.0",
+    "uuid": "^9.0.0",
+    "https-proxy-agent": "^5.0.1"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
